@@ -1,0 +1,104 @@
+:root{
+    --hero-bg-gradient-max : #C073AA;
+    --hero-bg-gradient-min : #ECD9BE;
+    --nav--bg : #23323D;
+}
+
+body{
+    background : linear-gradient(to right, var(--hero-bg-gradient-min), var(--hero-bg-gradient-max));
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-navbar{
+    width: 100%;
+    display: flex;
+    background-size: cover;
+}
+.hero .navbar ul{
+    list-style-type: none;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+.hero .navbar ul li{
+    align-items: center;
+    font-size: 25px;
+    display: inline-table;
+    border: 1px solid var(--nav--bg);
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+    background: var(--nav--bg);
+    margin-inline-end: 20px;
+}
+
+.hero .navbar ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.gclogo{
+    width: 150px;
+    height: 150px;
+}
+.wlogo{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 120px;
+}
+
+.p-top{
+    font-size: 90px;
+    margin-top: 10px;
+    margin-left: 32%;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+}
+
+.left{
+    height: 70px;
+    width: 150px;
+    margin-top: -50px;
+    display: flex;
+}
+
+.icon{
+    margin-top: -100px;
+    margin-left: 250px;
+    height: 200px;
+}
+
+.p-bottom{
+    margin-top: -60px;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.right{
+    height: 200px;
+    width: 230px;
+    margin-left: auto;
+}
+
+.bottom{
+    margin-left: 250px;
+    margin-top: -50px;
+    height: 70px;
+    width: 120px;
+}
