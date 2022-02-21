@@ -34,6 +34,10 @@ body{
     margin-inline-end: 20px;
 }
 
+span{
+    margin-left: 60px;
+}
+
 .hero .navbar ul li a{
     padding: 20px;
     text-decoration: none;
@@ -48,7 +52,7 @@ body{
     width: 200px;
     height: 150px;
     position: relative;
-    margin-left: 120px;
+    margin-left: 200px;
     margin-top: 60px;
 }
 
