@@ -8,54 +8,6 @@ body{
     background : linear-gradient(to right, var(--hero-bg-gradient-min), var(--hero-bg-gradient-max));
     font-family: 'Montserrat', sans-serif;
 }
-
-.hero-navbar{
-    width: 100%;
-    display: flex;
-    background-size: cover;
-}
-.hero .navbar ul{
-    list-style-type: none;
-    margin-top: 80px;
-    margin-left: 60px;
-}
-
-.hero .navbar ul li{
-    align-items: center;
-    font-size: 25px;
-    display: inline-table;
-    border: 1px solid var(--nav--bg);
-    border-radius: 15px;
-    margin-left: 50px;
-    margin-top: 10px;
-    padding: 10px;
-    font-weight: bold;
-    background: var(--nav--bg);
-    margin-inline-end: 20px;
-}
-
-span{
-    margin-left: 60px;
-}
-
-.hero .navbar ul li a{
-    padding: 20px;
-    text-decoration: none;
-    color: white;
-}
-
-.gclogo{
-    width: 150px;
-    height: 150px;
-}
-.wlogo{
-    width: 200px;
-    height: 150px;
-    position: relative;
-    margin-left: 200px;
-    margin-top: 60px;
-}
-
 .center{
     display: block;
     margin-left: auto;
@@ -64,8 +16,12 @@ span{
     width: 120px;
 }
 
+span{
+    width: 13rem;
+}
+
 .p-top{
-    font-size: 90px;
+    font-size: 120px;
     margin-top: 10px;
     margin-left: 32%;
     font-weight: bold;
@@ -76,33 +32,56 @@ span{
 }
 
 .left{
-    height: 70px;
-    width: 150px;
+    display: flex;
+    height: 80px;
+    width: 250px;
     margin-top: -50px;
     display: flex;
 }
 
 .icon{
-    margin-top: -100px;
+    display: flex;
+    margin-top: -40px;
     margin-left: 250px;
-    height: 200px;
+    height: 230px;
 }
 
 .p-bottom{
+    display: flex;
     margin-top: -60px;
-    font-size: 90px;
+    font-size: 120px;
     font-weight: bold;
 }
 
 .right{
+    display: flex;
+    flex-direction: column;
     height: 200px;
     width: 230px;
-    margin-left: auto;
+    margin-left: 100px;
 }
 
-.bottom{
-    margin-left: 250px;
+ .bottom{
+     display: flex;
+    margin-left: -30;
     margin-top: -50px;
-    height: 70px;
-    width: 120px;
+    height: 180px;
+    width: 250px;
+}
+
+.down{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.down button{
+    height: 50px;
+    border-radius: 10px;
+    padding: 35px;
+
+}
+
+.bg{
+    background : linear-gradient(to right, var(--hero-bg-gradient-min), var(--hero-bg-gradient-max));
 }
