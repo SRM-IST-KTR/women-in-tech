@@ -12,11 +12,11 @@ body{
     height: 100%;
 }
 .center{
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    height: 60px;
-    width: 120px;
+    height: 5rem;
+    width: 8rem;
 }
 
 span{
@@ -26,7 +26,6 @@ span{
 .p-top{
     font-size: 8rem;
     margin-top: 2rem;
-    margin-left: 32%;
     font-weight: bold;
 }
 
@@ -50,15 +49,14 @@ span{
     display: flex;
     height: 5rem;
     width: 10rem;
-    margin-top: -50px;
     display: flex;
+    margin-right: 5rem;
 }
 
 .icon{
     display: flex;
-    margin-top: -40px;
-    /* margin-left: 250px; */
-    height: 230px;
+    height: 17rem;
+    margin-left: 15rem;
 }
 
 .p-bottom{
@@ -70,17 +68,17 @@ span{
 
 .right{
     flex-direction: column;
-    height: 200px;
-    width: 230px;
+    height: 12rem;
+    width: 15rem;
     margin-right: 0;
+    margin-left: 12rem;
 }
 
  .bottom{
      display: flex;
-    margin-left: -30;
-    margin-top: -50px;
-    height: 180px;
-    width: 250px;
+    margin-top: 2rem;
+    height: 10rem;
+    width: 15rem;
 }
 
 .down{
@@ -95,6 +93,7 @@ span{
     height: 7rem;
     border-radius: 10px;
     padding: 2rem;
+    margin-top: 5rem;
 
 }
 
