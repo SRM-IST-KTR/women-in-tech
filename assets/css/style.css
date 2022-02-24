@@ -1,124 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
 :root {
-  --hero-bg-gradient-max: #c073aa;
-  --hero-bg-gradient-min: #ecd9be;
+  --sky-magenta: #c073aa;
+  --champagne: #ecd9be;
   --nav--bg: #23323d;
 }
 
+html,
 body {
-  background: linear-gradient(
-    to right,
-    var(--hero-bg-gradient-min),
-    var(--hero-bg-gradient-max)
-  );
-  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
   font-family: "Montserrat", sans-serif;
   width: 100%;
   height: 100%;
 }
-.center {
+
+body {
+  background: url("../img/bg.png"),
+    linear-gradient(to right, var(--champagne), var(--sky-magenta));
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+figure {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  padding: 0.5rem 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  height: 5rem;
-  width: 8rem;
-}
-
-span {
-  width: 11rem;
-}
-
-.p-top {
-  font-size: 8rem;
-  margin-top: 2rem;
-  font-weight: bold;
-}
-
-.column-container {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
 }
 
-.row-container {
-  justify-content: stretch;
+nav figure img {
+  height: 100%;
+  max-height: 108px;
+}
+
+nav .nav-items-container {
   display: flex;
-  flex-direction: row;
-  height: 20vh;
-  width: 100%;
+  width: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 700;
 }
 
-.left {
-  display: flex;
-  height: 5rem;
-  width: 10rem;
-  display: flex;
-  margin-right: 5rem;
-}
-
-.icon {
-  display: flex;
-  height: 17rem;
-  margin-left: 15rem;
-}
-
-.p-bottom {
-  display: flex;
-  margin-top: 1rem;
-  font-size: 8rem;
-  font-weight: bold;
-}
-
-.right {
-  flex-direction: column;
-  height: 12rem;
-  width: 15rem;
-  margin-right: 0;
-  margin-left: 12rem;
-}
-
-.bottom {
-  display: flex;
-  margin-top: 2rem;
-  height: 10rem;
-  width: 15rem;
-}
-
-.down {
-  justify-content: center;
-  display: flex;
-  text-align: center;
-  width: 100%;
-  margin-top: 5rem;
-}
-
-.down button {
-  height: 7rem;
-  border-radius: 10px;
-  padding: 2rem;
-  margin-top: 5rem;
-}
-
-.bg {
-  background: linear-gradient(
-    to right,
-    var(--hero-bg-gradient-min),
-    var(--hero-bg-gradient-max)
-  );
-}
-
-.bottom {
-  margin-left: 250px;
-  margin-top: -50px;
-  height: 70px;
-  width: 120px;
-}
-
-.bgp {
-  background: linear-gradient(
-    to right,
-    var(--hero-bg-gradient-min),
-    var(--hero-bg-gradient-max)
-  );
+nav .nav-items-container a {
+  border-radius: 8px;
+  padding: 0.5rem 2rem;
+  background: linear-gradient(135deg, #fdf2c3 0%, #9452a5 100%);
+  box-shadow: 5px -5px 10px 0px rgba(0, 0, 0, 0.25) inset,
+    -10px -10px 20px 0px rgba(204, 118, 190, 0.5),
+    10px 10px 20px 0px rgba(237, 218, 190, 0.5);
 }
