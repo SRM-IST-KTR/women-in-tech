@@ -1,20 +1,24 @@
-:root{
-  --hero-bg-gradient-max : #C073AA;
-  --hero-bg-gradient-min : #ECD9BE;
-  --nav--bg : #23323D;
+:root {
+  --hero-bg-gradient-max: #c073aa;
+  --hero-bg-gradient-min: #ecd9be;
+  --nav--bg: #23323d;
 }
 
-body{
-  background : linear-gradient(to right, var(--hero-bg-gradient-min), var(--hero-bg-gradient-max));
-  font-family: 'Montserrat Alternates', sans-serif;
+body {
+  background: linear-gradient(
+    to right,
+    var(--hero-bg-gradient-min),
+    var(--hero-bg-gradient-max)
+  );
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 h1 {
   font-size: 66px;
-    font-style: italic;
-    padding-left: 13%;
-    padding-right: 0px;
-    width: 70%;
+  font-style: italic;
+  padding-left: 13%;
+  padding-right: 0px;
+  width: 70%;
 }
 
 p {
@@ -23,71 +27,70 @@ p {
 }
 
 #backGround {
-    height: 1200px;
-    overflow: hidden;
+  height: 1200px;
+  overflow: hidden;
 }
 
-#backGround #second{
+#backGround #second {
   position: relative;
-    width: 80%;
-    height: 55%;
-    margin: auto;
-    margin-top: 17%;
-    overflow: auto;
-    z-index: 1;
-    border-radius: 6%;
-    background: linear-gradient(to left, #EADEDE, #BE91B1);
+  width: 80%;
+  height: 55%;
+  margin: auto;
+  margin-top: 17%;
+  overflow: auto;
+  z-index: 1;
+  border-radius: 6%;
+  background: linear-gradient(to left, #eadede, #be91b1);
 }
 
-  .container {
-    position: relative;
-  }
-  .topRight {
-   float: right;
-  }
-  .topLeft {
-    float: left;
-  }
-  .topCenter {
-    float: left;
-    margin-left: 20%;
-    padding-top: 5%;
-  }
-  .bottomLeft {
-    float: left;
-      bottom: 19%;
-      position: absolute;
-  }
+.container {
+  position: relative;
+}
+.topRight {
+  float: right;
+}
+.topLeft {
+  float: left;
+}
+.topCenter {
+  float: left;
+  margin-left: 20%;
+  padding-top: 5%;
+}
+.bottomLeft {
+  float: left;
+  bottom: 19%;
+  position: absolute;
+}
 
-  .bottomRight {
-    float: right;
-    left: 81%;
-    bottom: 19%;
-    position: absolute;
-  }
+.bottomRight {
+  float: right;
+  left: 81%;
+  bottom: 19%;
+  position: absolute;
+}
 
 #witlogo {
-    position: relative;
-    right: 0.02%;
-    top: 0%;
-    bottom: 79.43%;
-    filter: drop-shadow(0px3.93812px 3.93812px 
-    rgba(0,0, 0, 0.25));
+  position: relative;
+  right: 0.02%;
+  top: 0%;
+  bottom: 79.43%;
+  filter: drop-shadow(0px3.93812px 3.93812px rgba(0, 0, 0, 0.25));
 }
 
 .box {
   position: absolute;
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .detailBox {
   position: absolute;
   width: 80%;
-    text-align: center;
-    font-size: 30px;
-    padding: 2%;
+  text-align: center;
+  font-size: 30px;
+  padding: 2%;
 }
