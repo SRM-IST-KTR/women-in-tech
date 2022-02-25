@@ -95,10 +95,11 @@ nav .nav-items-container {
 }
 
 .prize{
-  margin-top: 20rem;
+  margin-top: 14rem;
   font-weight: 700;
   font-size: 2rem;
-  margin-bottom: -7rem;
+  margin-bottom: -12rem;
+  color: rgba(0, 0, 0, 0.822) !important;
 }
 
 .hero-wrapper .hero {
@@ -127,7 +128,7 @@ section.about > div,
 section.speakers-wrapper,
 section.sponsors-wrapper {
   width: 75%;
-  margin: 2rem auto;
+  margin: 2.5rem auto;
 }
 
 section.about > div {
@@ -145,7 +146,7 @@ section.speakers-wrapper .speakers figure {
 }
 
 .box_speaker{
-  width: 9rem;
+  width: 10rem;
   border-radius: 100%;
   height: 10rem;
 }
@@ -263,6 +264,7 @@ footer {
   }
   .prize{
     max-width: 75%;
+   
   }
   section.form-wrapper h2{
      font-size: 5rem;
