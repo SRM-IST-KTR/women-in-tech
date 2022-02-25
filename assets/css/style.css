@@ -237,6 +237,7 @@ footer {
   }
   .footer-container{
     font-size: medium;
+    justify-content: space-evenly;
   }
   nav figure img{
     max-width: 12rem;
