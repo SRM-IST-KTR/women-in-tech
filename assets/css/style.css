@@ -132,6 +132,13 @@ section.speakers-wrapper .speakers figure img {
   width: 96px;
   border-radius: 100%;
   padding: 0.2rem;
+  min-height: 6rem;
+}
+
+
+section.speakers-wrapper .speakers .box{
+  margin-top: 1rem;
+  height: 3rem;
 }
 
 section.sponsors-wrapper .sponsors {
@@ -170,4 +177,63 @@ section.form-wrapper h2:nth-child(1) {
 
 section.form-wrapper .form {
   height: 100vh;
+}
+
+section.form-wrapper img{
+  display: block;
+  margin-left: auto;
+  margin-top: -4rem;
+}
+
+footer {
+  height: 10rem;
+  background-color: #23323D;
+}
+
+.footer-container {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: x-large;
+}
+
+.icon-display {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 1024px){
+  html{
+    font-size: 45%;
+  }
+  .hero img{
+    height: 110%;
+  }
+  section.form-wrapper img{
+    margin-top: 2rem;
+    height: 20rem;
+  }
+  section.form-wrapper h2{
+     padding-top: 2rem;
+    font-size: 5rem;
+  }
+  section.sponsors-wrapper .box{
+    width: 70%;
+  }
+  section.sponsors-wrapper .box img{
+    max-width: 8rem;
+  }
+  section.speakers-wrapper  .speakers figure img{
+    max-width: 7rem;
+    min-height: 7rem;
+  }
+  section.speakers-wrapper .speakers .box{
+    min-height: 5rem;
+  }
+  footer{
+    min-height: 12rem;
+  }
+  .footer-container{
+    font-size: medium;
+  }
 }
