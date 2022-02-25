@@ -214,7 +214,7 @@ footer {
     height: 20rem;
   }
   section.form-wrapper h2{
-     padding-top: 2rem;
+     padding-top: 12rem;
     font-size: 5rem;
   }
   section.sponsors-wrapper .box{
@@ -231,9 +231,23 @@ footer {
     min-height: 5rem;
   }
   footer{
-    min-height: 12rem;
+    min-height: 14rem;
+    position: absolute;
+    width: 100%;
   }
   .footer-container{
     font-size: medium;
+  }
+  nav figure img{
+    max-width: 12rem;
+  }
+  section.speakers-wrapper h2{
+    font-size: 5rem;
+  }
+  section.sponsors-wrapper h2{
+    font-size: 5rem;
+  }
+  section.about .box{
+    font-size: 3rem;
   }
 }
