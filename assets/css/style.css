@@ -50,6 +50,13 @@ button {
     -10px -10px 20px 0px rgba(204, 118, 190, 0.5),
     10px 10px 20px 0px rgba(237, 218, 190, 0.5);
 }
+
+.date{
+  padding: 0.5rem 2rem;
+  background: linear-gradient(135deg, #fdf2c3 0%, #9452a5 100%);
+  border-radius: 30px;
+}
+
 h2 {
   color: var(--gunmetal);
   font-size: 48px;
@@ -59,7 +66,7 @@ h2 {
 /* styles */
 nav {
   padding: 0.5rem 0;
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -73,7 +80,7 @@ nav figure img {
 
 nav .nav-items-container {
   display: flex;
-  width: 50%;
+  width: 75%;
   justify-content: space-evenly;
   align-items: center;
   font-weight: 700;
@@ -84,6 +91,14 @@ nav .nav-items-container {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: -2rem;
+}
+
+.prize{
+  margin-top: 20rem;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: -7rem;
 }
 
 .hero-wrapper .hero {
@@ -126,26 +141,35 @@ section.speakers-wrapper .speakers figure {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  font-size: 0.9rem;
 }
 
-section.speakers-wrapper .speakers figure img {
-  width: 96px;
+.box_speaker{
+  width: 9rem;
   border-radius: 100%;
-  padding: 0.2rem;
-  min-height: 6rem;
+  height: 10rem;
 }
 
+section.speakers-wrapper .speakers figcaption .box{
+  min-height: 1rem;
+}
 
 section.speakers-wrapper .speakers .box{
   margin-top: 1rem;
-  height: 3rem;
+  height: 5rem;
+}
+
+section.sponsors-wrapper .sponsors .box{
+  margin-top: 1rem;
+  height: 20rem;
 }
 
 section.sponsors-wrapper .sponsors {
   display: grid;
   margin-top: 2rem;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  column-gap: 24px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  row-gap: 2rem;
+  column-gap: 2rem;
   place-items: center;
 }
 
@@ -159,12 +183,19 @@ section.sponsors-wrapper .sponsors figure {
 
 section.sponsors-wrapper .sponsors figure img {
   margin: auto;
-  width: 96px;
+  width: 13rem;
   padding: 0.2rem;
+  max-height: 6rem;
 }
 
 section.sponsors-wrapper .sponsors figure figcaption {
   margin-top: 2rem;
+}
+
+.link{
+  max-height: 2rem;
+  max-width: 10rem;
+  margin-left: auto;
 }
 
 section.form-wrapper {
@@ -175,8 +206,18 @@ section.form-wrapper h2:nth-child(1) {
   font-weight: 500;
 }
 
+section.form-wrapper h2{
+  margin : 5rem;
+}
 section.form-wrapper .form {
   height: 100vh;
+}
+section.form-wrapper .form{
+  min-height: 10rem;
+  font-weight: 700;
+  padding: 2rem 4rem;
+  margin-top: -5rem;
+  font-size: 5rem;
 }
 
 section.form-wrapper img{
@@ -184,6 +225,7 @@ section.form-wrapper img{
   margin-left: auto;
   margin-top: -4rem;
 }
+
 
 footer {
   height: 10rem;
@@ -206,6 +248,12 @@ footer {
   html{
     font-size: 45%;
   }
+  body{
+    background-repeat: repeat;
+  }
+  nav .nav-items-container{
+    width: 78%;
+  }
   .hero img{
     height: 110%;
   }
@@ -213,9 +261,11 @@ footer {
     margin-top: 2rem;
     height: 20rem;
   }
+  .prize{
+    max-width: 75%;
+  }
   section.form-wrapper h2{
-     padding-top: 12rem;
-    font-size: 5rem;
+     font-size: 5rem;
   }
   section.sponsors-wrapper .box{
     width: 70%;
@@ -223,12 +273,21 @@ footer {
   section.sponsors-wrapper .box img{
     max-width: 8rem;
   }
-  section.speakers-wrapper  .speakers figure img{
-    max-width: 7rem;
-    min-height: 7rem;
+  section.speakers-wrapper .speakers figure{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    row-gap: 2rem;
+    
   }
   section.speakers-wrapper .speakers .box{
     min-height: 5rem;
+  }
+  section.speakers-wrapper .speakers figcaption{
+    font-size: 50%;
+  }
+  .box_speaker{
+    height: 8rem;
+    width: 9rem;
   }
   footer{
     min-height: 14rem;
@@ -240,7 +299,7 @@ footer {
     justify-content: space-evenly;
   }
   nav figure img{
-    max-width: 12rem;
+    max-width: 6rem;
   }
   section.speakers-wrapper h2{
     font-size: 5rem;
@@ -251,4 +310,20 @@ footer {
   section.about .box{
     font-size: 3rem;
   }
+  .link{
+    max-height: 1rem;
+    min-width: 10rem;
+  }
+  section.sponsors-wrapper .sponsors figure figcaption{
+    font-size: 50%;
+  }
+  .date{
+    width: 50%;
+    top: 0;
+  }
+
+  .date h2{
+    font-size: 50%;
+  }
+
 }
