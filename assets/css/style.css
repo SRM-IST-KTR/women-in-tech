@@ -147,6 +147,7 @@ section.about > div {
 
 section.speakers-wrapper .speakers img{
   width: 8rem;
+  font-size: 21px;
 }
 section.speakers-wrapper .speakers figure {
   margin-bottom: 2rem;
@@ -164,6 +165,7 @@ section.speakers-wrapper .speakers figure {
 
 div.speakers .speaker {
   width:8rem;
+
 }
 
 section.speakers-wrapper .speakers figcaption .box{
@@ -429,6 +431,11 @@ iframe{
     flex-direction: column;
     justify-content: center;
   }
+
+  section.sponsors-wrapper .sponsors figure{
+    max-height: 20rem;
+  }
+
   section.sponsors-wrapper .sponsors figcaption.box{
     font-size: 8px;
     align-self: center;
