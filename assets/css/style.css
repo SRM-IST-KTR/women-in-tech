@@ -45,7 +45,7 @@ button {
 /* custom default classes */
 .box {
   border-radius: 8px;
-  padding: 0.5rem 2rem;
+  padding: 1rem 2rem;
   background: linear-gradient(135deg, #fdf2c3 0%, #9452a5 100%);
   box-shadow: 5px -5px 10px 0px rgba(0, 0, 0, 0.25) inset,
     -10px -10px 20px 0px rgba(204, 118, 190, 0.5),
@@ -145,6 +145,9 @@ section.about > div {
   font-size: 28px;
 }
 
+section.speakers-wrapper .speakers img{
+  width: 8rem;
+}
 section.speakers-wrapper .speakers figure {
   margin-bottom: 2rem;
   display: flex;
@@ -159,18 +162,20 @@ section.speakers-wrapper .speakers figure {
   height: 10rem;
 }
 
+div.speakers .speaker {
+  width:8rem;
+}
+
 section.speakers-wrapper .speakers figcaption .box{
   min-height: 1rem;
 }
 
 section.speakers-wrapper .speakers .box{
   margin-top: 1rem;
-  height: 5rem;
 }
 
 section.sponsors-wrapper .sponsors .box{
   margin-top: 1rem;
-  height: 20rem;
 }
 
 section.sponsors-wrapper .sponsors {
@@ -183,6 +188,7 @@ section.sponsors-wrapper .sponsors {
 }
 
 section.sponsors-wrapper .sponsors figure {
+  max-height: 13rem;
   border-radius: 24px;
   display: flex;
   flex-direction: column;
@@ -194,7 +200,7 @@ section.sponsors-wrapper .sponsors figure img {
   margin: auto;
   width: 13rem;
   padding: 0.2rem;
-  max-height: 6rem;
+  max-width: 6rem;
 }
 
 section.sponsors-wrapper .sponsors figure figcaption {
@@ -263,6 +269,7 @@ footer {
 iframe{
   width: 85%;
   height: 90vh;
+  border-radius: 20px;
 }
 
 
@@ -293,21 +300,22 @@ iframe{
   section.sponsors-wrapper .box{
     width: 70%;
   }
-  section.sponsors-wrapper .box img{
+  /* section.sponsors-wrapper .box img{
     max-width: 8rem;
-  }
+  } */
   section.sponsors-wrapper .sponsors figcaption.box{
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
   section.speakers-wrapper .speakers figure{
-    display: grid;
+  
+    /* display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    row-gap: 3rem;
+    row-gap: 3rem; */
   }
   section.speakers-wrapper .speakers .box{
-    max-height: 15rem;
+    /* max-height: 15rem; */
     min-width: 24rem;
     justify-content: space-around;
     text-align: center;
@@ -351,7 +359,6 @@ iframe{
     display: flex;
     justify-content: center;
     max-height: 2rem;
-    max-width: 16rem;
     font-size: 1.5rem;
   }
   section.sponsors-wrapper .sponsors figure figcaption{
@@ -390,9 +397,10 @@ iframe{
     font-size: 30%;
   }
   nav figure img{
-    width: 0.4rem;
+    width: 4rem;
   }
   section.speakers-wrapper .speakers .box{
+    padding: 10px;
     margin: auto;
     display: block;
     min-width: 30rem;
@@ -400,10 +408,14 @@ iframe{
     text-align: center;
     font-size: 0.65rem;
   }
+
+  section.speakers-wrapper .speakers img{
+    width: 8rem;
+  }
+
   section.about .box{
-    width: 35vh;
-    height: 50vh;
-    font-size: small;
+    /* width: 35vh; */
+    font-size: 8px;
   }
   section.speakers-wrapper{
     display: flex;
@@ -418,8 +430,14 @@ iframe{
     justify-content: center;
   }
   section.sponsors-wrapper .sponsors figcaption.box{
-    font-size: 1rem;
+    font-size: 8px;
     align-self: center;
+  }
+  section.speakers-wrapper{
+    width: 80%;
+  }
+  section.speakers-wrapper .speakers figcaption.box{
+    font-size: 8px;
   }
   .link{
     align-items: center;
