@@ -196,6 +196,9 @@ section.sponsors-wrapper .sponsors figure figcaption {
 section.sponsors-wrapper .sponsors .box img.box{
   padding: 1.5rem;
 }
+section.sponsors-wrapper .sponsors .box{
+  text-align: center;
+}
 
 .link{
   max-height: 2rem;
