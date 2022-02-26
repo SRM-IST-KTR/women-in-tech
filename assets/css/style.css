@@ -308,12 +308,12 @@ iframe{
     width: 7rem;
   } 
   footer{
-    min-height: 14rem;
+    min-height: 12rem;
     position: absolute;
     width: 100%;
   }
   .footer-container{
-    font-size: medium;
+    font-size: small;
     justify-content: space-evenly;
   }
   nav figure img{
@@ -393,7 +393,10 @@ iframe{
     align-items: center;
   }
   footer{
-    min-height: 23rem;
+    min-height: 15rem;
+  }
+  .footer-container{
+    font-size: 2.5rem;
   }
 
 }
