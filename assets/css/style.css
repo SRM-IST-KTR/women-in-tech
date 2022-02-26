@@ -133,7 +133,10 @@ section.sponsors-wrapper {
 
 section.speakers-wrapper{
   width: 60%;
-  margin: 2.5rem auto;
+  margin: 2.5rem;
+}
+section.speakers-wrapper h2{
+  
 }
 
 section.about > div {
@@ -329,7 +332,8 @@ iframe{
     justify-content: space-evenly;
   }
   nav figure img{
-    max-width: 6rem;
+    max-width: 5rem;
+    max-height: 4rem;
   }
   section.speakers-wrapper h2{
     font-size: 5rem;
@@ -386,10 +390,10 @@ iframe{
     font-size: 30%;
   }
   nav figure img{
-    display: flex;
-    width: 3rem;
+    width: 0.4rem;
   }
   section.speakers-wrapper .speakers .box{
+    margin: auto;
     display: block;
     min-width: 30rem;
     justify-content: space-around;
@@ -400,6 +404,10 @@ iframe{
     width: 35vh;
     height: 50vh;
     font-size: small;
+  }
+  section.speakers-wrapper{
+    display: flex;
+    flex-direction: column;
   }
   section.sponsors-wrapper{
     font-size: 1.5rem;
