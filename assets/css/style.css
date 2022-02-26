@@ -193,6 +193,10 @@ section.sponsors-wrapper .sponsors figure figcaption {
   margin-top: 2rem;
 }
 
+section.sponsors-wrapper .sponsors .box img.box{
+  padding: 1.5rem;
+}
+
 .link{
   max-height: 2rem;
   max-width: 10rem;
@@ -281,11 +285,13 @@ footer {
     
   }
   section.speakers-wrapper .speakers .box{
-    min-height: 5rem;
-    min-width: 20rem;
+    max-height: 15rem;
+    min-width: 25rem;
+    justify-content: space-around;
+    text-align: center;
   }
   section.speakers-wrapper .speakers figcaption{
-    font-size: 70%;
+    font-size: 80%;
   }
    .box_speaker{
     height: 7rem;
