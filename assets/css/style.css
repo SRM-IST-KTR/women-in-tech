@@ -254,7 +254,7 @@ footer {
 }
 iframe{
   width: 85%;
-  height: 100vh;
+  height: 90vh;
 }
 
 
@@ -329,8 +329,11 @@ iframe{
     font-size: 3rem;
   }
   .link{
-    max-height: 1rem;
-    min-width: 10rem;
+    display: flex;
+    justify-content: center;
+    max-height: 2rem;
+    max-width: 16rem;
+
   }
   section.sponsors-wrapper .sponsors figure figcaption{
     font-size: 50%;
@@ -357,3 +360,42 @@ iframe{
   }
 }
 
+@media (max-width:320px) {
+  html{
+    font-size: 30%;
+  }
+  section.speakers-wrapper .speakers .box{
+    display: block;
+    min-width: 30rem;
+    max-height: 15rem;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+  section.about .box{
+    width: 35vh;
+    height: 50vh;
+    font-size: small;
+  }
+  section.sponsors-wrapper{
+    font-size: 1.5rem;
+  }
+  section.sponsors-wrapper .sponsors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  section.sponsors-wrapper .sponsors figcaption.box{
+    font-size: 1rem;
+    align-self: center;
+  }
+  section.sponsors-wrapper .sponsors figure a{
+  }
+  .link{
+    align-items: center;
+  }
+  footer{
+    min-height: 23rem;
+  }
+
+}
