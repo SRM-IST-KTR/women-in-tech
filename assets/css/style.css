@@ -13,6 +13,7 @@ body {
   font-family: "Montserrat", sans-serif;
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -251,13 +252,13 @@ footer {
     display: flex;
     justify-content: space-evenly;
 }
-
 @media (max-width: 1024px){
   html{
     font-size: 45%;
   }
   body{
     background-repeat: repeat;
+    overflow-x: hidden;
   }
   nav .nav-items-container{
     width: 78%;
@@ -337,5 +338,5 @@ footer {
   .date h2{
     font-size: 50%;
   }
-
+  
 }
