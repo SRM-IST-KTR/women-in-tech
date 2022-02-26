@@ -126,9 +126,13 @@ nav .nav-items-container {
 }
 
 section.about > div,
-section.speakers-wrapper,
 section.sponsors-wrapper {
   width: 75%;
+  margin: 2.5rem auto;
+}
+
+section.speakers-wrapper{
+  width: 60%;
   margin: 2.5rem auto;
 }
 
@@ -381,13 +385,16 @@ iframe{
   html{
     font-size: 30%;
   }
+  nav figure img{
+    display: flex;
+    width: 3rem;
+  }
   section.speakers-wrapper .speakers .box{
     display: block;
     min-width: 30rem;
-    max-height: 15rem;
     justify-content: space-around;
     text-align: center;
-    font-size: 0.75rem;
+    font-size: 0.65rem;
   }
   section.about .box{
     width: 35vh;
