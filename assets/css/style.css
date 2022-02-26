@@ -264,7 +264,6 @@ footer {
   }
   .prize{
     max-width: 75%;
-   
   }
   section.form-wrapper h2{
      font-size: 5rem;
@@ -283,14 +282,15 @@ footer {
   }
   section.speakers-wrapper .speakers .box{
     min-height: 5rem;
+    min-width: 20rem;
   }
   section.speakers-wrapper .speakers figcaption{
-    font-size: 50%;
+    font-size: 70%;
   }
-  .box_speaker{
-    height: 8rem;
-    width: 9rem;
-  }
+   .box_speaker{
+    height: 7rem;
+    width: 7rem;
+  } 
   footer{
     min-height: 14rem;
     position: absolute;
@@ -320,8 +320,9 @@ footer {
     font-size: 50%;
   }
   .date{
-    width: 50%;
+    width: 60%;
     top: 0;
+    border-radius: 20px;
   }
 
   .date h2{
