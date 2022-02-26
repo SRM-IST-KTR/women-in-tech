@@ -296,7 +296,7 @@ iframe{
   }
   section.speakers-wrapper .speakers .box{
     max-height: 15rem;
-    min-width: 25rem;
+    min-width: 24rem;
     justify-content: space-around;
     text-align: center;
   }
@@ -388,8 +388,6 @@ iframe{
   section.sponsors-wrapper .sponsors figcaption.box{
     font-size: 1rem;
     align-self: center;
-  }
-  section.sponsors-wrapper .sponsors figure a{
   }
   .link{
     align-items: center;
