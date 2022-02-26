@@ -395,7 +395,7 @@ iframe{
   }
 }
 
-@media (max-width:320px) {
+@media (max-width:380px) {
   html{
     font-size: 30%;
   }
