@@ -345,12 +345,6 @@ iframe{
     margin-left: auto;
     margin-right: auto;
   }
-  section.speakers-wrapper .speakers figure{
-  
-    /* display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    row-gap: 3rem; */
-  }
   section.speakers-wrapper .speakers .box{
     /* max-height: 15rem; */
     min-width: 24rem;
@@ -366,7 +360,7 @@ iframe{
    .box_speaker{
     height: 7rem;
     width: 7rem;
-  } 
+  }
   footer{
     min-height: 12rem;
     position: absolute;
@@ -494,5 +488,5 @@ iframe{
   .footer-container{
     font-size: 2.5rem;
   }
-  
+
 }
