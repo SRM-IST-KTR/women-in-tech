@@ -67,7 +67,29 @@ button {
   border-radius: 30px;
 }
 
+h1 {
+  background: rgb(6, 26, 34);
   background: -moz-radial-gradient(
+    circle,
+    var(--gunmetal) 60%,
+    var(--sky-magenta) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    var(--gunmetal) 60%,
+    var(--sky-magenta) 100%
+  );
+  background: radial-gradient(
+    circle,
+    var(--gunmetal) 60%,
+    var(--sky-magenta) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#061a22",endColorstr="#9452a5",GradientType=1);
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 h2 {
   color: var(--gunmetal);
   font-size: 48px;
