@@ -287,7 +287,6 @@ section.form-wrapper img{
 
 
 footer {
-  height: 10rem;
   background-color: #23323D;
 }
 
@@ -296,11 +295,13 @@ footer {
   display: flex;
   justify-content: space-around;
   font-size: x-large;
+  font-weight: bolder;
 }
 
 .icon-display {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1rem;
 }
 iframe{
   width: 85%;
